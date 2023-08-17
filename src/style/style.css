@@ -1,0 +1,48 @@
+.hidden{
+    display: none;
+}
+.heading-title{
+    margin-bottom: 2px;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.heading-tag{
+    margin-bottom: 2px;
+}
+
+.heading-description{
+    margin-bottom: 2px;
+}
+
+.link-list{
+    padding: 0px 0px 0px 10px;
+    font-size: 18px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.theme-toggle-button{
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+}
+.image-container-outer{
+    margin: 12px auto;
+}
+.image-container{
+    width: -webkit-fill-available;
+}
+.readPost{
+    margin-top: 60px;
+    margin-bottom: 18px;
+}
+.paragraf-description{
+    margin-bottom: 2px;
+}
+
+.article-card{
+    margin-top: 20px;
+}
