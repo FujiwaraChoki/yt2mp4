@@ -14,8 +14,6 @@
     "child_process": false
   },
   "dependencies": {
-    "@ffmpeg/ffmpeg": "^0.12.4",
-    "@ffmpeg/util": "^0.12.0",
     "@next/font": "13.1.2",
     "@picocss/pico": "^1.5.6",
     "@types/node": "18.17.0",
