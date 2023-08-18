@@ -4,21 +4,22 @@ import Link from 'next/link';
 import { MdNightlightRound, MdWbSunny } from "react-icons/md";
 
 function Header() {
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const [color, setColor] = useState('hidden')
 
-  const toggleTheme = () => {
-    setIsDarkTheme(prevTheme => !prevTheme);
-  };
 
   return (
-    <header className={`container ${isDarkTheme ? 'dark-theme' : ''}`}>
+    <header className="container">
       <nav>
         <ul>
+
           <li>
+
             <Link href="/">
               <strong>Yt2Mp4</strong>
             </Link>
+
           </li>
+
         </ul>
 
         <ul>
@@ -28,21 +29,15 @@ function Header() {
           <li>
             <Link href="/pages/about">About us</Link>
           </li>
+
           <li>
             <Link href="/pages/contact">Contact</Link>
           </li>
+
           <li>
-            <button
-              id="theme-toggle"
-              type="button"
-              className="theme-toggle-button"
-              onClick={toggleTheme}
-            >
-              {isDarkTheme ? (
-                <MdWbSunny fill="white" className="theme-toggle-icon" />
-              ) : (
-                <MdNightlightRound fill="black" className="theme-toggle-icon" />
-              )}
+            <button id="theme-toggle" type="button" className="theme-toggle-button" data-theme-switcher="light">
+              <MdNightlightRound fill='black' className={color} id="theme-toggle-dark-icon" />
+              <MdWbSunny fill='white' className={color} id="theme-toggle-light-icon" />
             </button>
           </li>
         </ul>
