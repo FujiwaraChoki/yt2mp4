@@ -32,6 +32,6 @@
     "youtube-dl-exec": "^2.4.7"
   },
   "engines": {
-    "node": "18.x"
+    "node": "19.x"
   }
 }
