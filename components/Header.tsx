@@ -5,7 +5,7 @@ import { MdNightlightRound, MdWbSunny } from "react-icons/md";
 
 function Header() {
   const [color, setColor] = useState('hidden')
-
+  const [currentTheme, setCurrentTheme] = useState('dark')
 
   return (
     <header className="container">
@@ -36,8 +36,13 @@ function Header() {
 
           <li>
             <button id="theme-toggle" type="button" className="theme-toggle-button" data-theme-switcher="light">
-              <MdNightlightRound fill='black' className={color} id="theme-toggle-dark-icon" />
-              <MdWbSunny fill='white' className={color} id="theme-toggle-light-icon" />
+              {
+                currentTheme === 'dark' ? (
+                  <MdWbSunny fill='white' className={color} id="theme-toggle-light-icon" />
+                ) : (
+                  <MdNightlightRound fill='black' className={color} id="theme-toggle-dark-icon" />
+                )
+              }
             </button>
           </li>
         </ul>
