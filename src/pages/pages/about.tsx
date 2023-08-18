@@ -1,3 +1,4 @@
+// pages/about.tsx
 import React from 'react';
 
 function about() {
@@ -5,28 +6,28 @@ function about() {
         <div className='container' role="document">
 
 
-                <hgroup className='readPost'>
-                    <h2>About us</h2>
-                    <h3> My name Rajdeep singh </h3>
-                </hgroup>
+            <hgroup className='readPost'>
+                <h2>About us</h2>
+                <h3> We are YT2MP4 </h3>
+            </hgroup>
 
-                <h6>Hi welcome, </h6>
+            <h6>Hi welcome, </h6>
 
-                <p>
-                    I completed my study in master of science in biotechnology last year. After passing out 12 classes, I brought MY first android mobile phone. Then I started using mobile, and I found a video on youtube about how to earn online money. that video changed my life. During my B.sc, I successfully found my first job on the internet. I got selected for a front-end developer role on just theme. My part is to convert png design into HTML and CSS.
-                </p>
+            <p>
+                We are a team of passionate developers who love YouTube and want to make it easier for people to download their favorite videos as MP4 files. We started this project as a hobby and a challenge, and we are proud of what we have achieved so far.
+            </p>
 
-                <p>
-                    After one year, I changed my job. In my second job, I learn many things like reactjs, API, CMS, etc.
-                </p>
-                <p>
-                    I started my writing career as a technical writer during my job. I published my first book on Linux and a research paper with osf. Some later, I publish one more book on bioinformatics.
-                </p>
-                <p>
-                    Now I publish an article every week on medium and other publications. You can read my article on my medium profile.
-                </p>
+            <p>
+                We use TypeScript, Next.js and pico.css to create a simple and responsive website that can convert any YouTube video into an MP4 file in seconds. We also use various APIs and libraries to handle the video processing and downloading.
+            </p>
+            <p>
+                Our goal is to provide a free and reliable service that anyone can use for personal or educational purposes. We respect the rights of the content owners and do not encourage any illegal or unethical use of our platform. We also do not store or share any user data or video files.
+            </p>
+            <p>
+                We are always looking for feedback and suggestions to improve our platform and make it more user-friendly. You can contact us through our email or social media accounts. You can also check out our GitHub repository to see our code and contribute to our project.
+            </p>
 
-                <p>Thank for reading</p>
+            <p>Thank you for using YT2MP4</p>
 
         </div>
     )

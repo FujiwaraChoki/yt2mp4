@@ -1,48 +1,65 @@
-.hidden{
+.hidden {
     display: none;
 }
-.heading-title{
+
+.heading-title {
     margin-bottom: 2px;
 }
-.text-decoration{
+
+.text-decoration {
     text-decoration: none;
 }
-.heading-tag{
+
+.heading-tag {
     margin-bottom: 2px;
 }
 
-.heading-description{
+.heading-description {
     margin-bottom: 2px;
 }
 
-.link-list{
+.link-list {
     padding: 0px 0px 0px 10px;
     font-size: 18px;
 }
 
-.mx-auto{
+.mx-auto {
     margin-left: auto;
     margin-right: auto;
 }
-.theme-toggle-button{
+
+.theme-toggle-button {
     padding: 0px;
     background-color: transparent;
     border: none;
 }
-.image-container-outer{
+
+.image-container-outer {
     margin: 12px auto;
 }
-.image-container{
+
+.image-container {
     width: -webkit-fill-available;
 }
-.readPost{
+
+.readPost {
     margin-top: 60px;
     margin-bottom: 18px;
 }
-.paragraf-description{
+
+.paragraf-description {
     margin-bottom: 2px;
 }
 
-.article-card{
+.article-card {
     margin-top: 20px;
+}
+
+.paragraf-error {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f5192c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }

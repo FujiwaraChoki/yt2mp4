@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { FaTwitter, FaGithub } from "react-icons/fa";
 
 function Footer() {
@@ -6,14 +7,14 @@ function Footer() {
         <footer className='container-fluid'>
             <nav>
                 <ul>
-                    <li>Copyright By Rajdeep singh</li>
+                    <li>Copyright 2023 Sami Hindi</li>
                 </ul>
                 <ul>
                     <li>
-                        <a> <FaGithub/> </a>
+                        <Link href="https://github.com/fujiwarachoki/"> <FaGithub size={35} /> </Link>
                     </li>
                     <li>
-                        <a> <FaTwitter /> </a>
+                        <Link href="https://twitter.com/chokifujiwara/"> <FaTwitter size={35} /> </Link>
                     </li>
                 </ul>
             </nav>

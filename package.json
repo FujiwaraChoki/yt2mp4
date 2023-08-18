@@ -8,7 +8,14 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "child_process": false
+  },
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.4",
+    "@ffmpeg/util": "^0.12.0",
     "@next/font": "13.1.2",
     "@picocss/pico": "^1.5.6",
     "@types/node": "18.11.18",
@@ -21,6 +28,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
-    "typescript": "4.9.4"
+    "typescript": "4.9.4",
+    "youtube-dl-exec": "^2.4.7",
+    "ytdl-core": "^4.11.5"
   }
 }
