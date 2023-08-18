@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Header />
       <Component {...pageProps} />
       <Footer />
-      <Script src='/pico-cstheme.js' />
+      <Script src='/theme.js' />
     </>
   )
 }
