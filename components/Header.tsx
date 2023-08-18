@@ -38,9 +38,9 @@ function Header() {
             <button id="theme-toggle" type="button" className="theme-toggle-button" data-theme-switcher="light">
               {
                 currentTheme === 'dark' ? (
-                  <MdWbSunny fill='white' className={color} id="theme-toggle-light-icon" />
+                  <MdWbSunny fill='white' onClick={() => { setCurrentTheme('light') }} className={color} id="theme-toggle-light-icon" />
                 ) : (
-                  <MdNightlightRound fill='black' className={color} id="theme-toggle-dark-icon" />
+                  <MdNightlightRound onClick={() => setCurrentTheme('dark')} fill='black' className={color} id="theme-toggle-dark-icon" />
                 )
               }
             </button>
