@@ -83,10 +83,28 @@ export default function Home() {
               <li>No watermarks or ads</li>
             </ul>
           </div>
+        </div>
 
+        <div className='grid'>
           <div className='card'>
             <h2>About</h2>
             <p>Yt2Mp4 is a free online service that lets you download any YouTube video as an MP4 file. You can use it for personal or educational purposes only. Please respect the rights of the content owners and do not upload or distribute the downloaded files without their permission.</p>
+            <p>Welcome to Yt2Mp4 – Your Ultimate YouTube Video Downloader</p>
+            <p>Looking for a hassle-free way to convert and download your favorite YouTube videos as high-quality MP4 files? Look no further! Yt2Mp4 is your go-to online service that empowers you to seamlessly transform YouTube content into downloadable MP4 formats. With our user-friendly interface and robust functionality, downloading YouTube videos has never been easier.</p>
+            <p>How to Download YouTube Videos with Yt2Mp4:</p>
+            <ol>
+              <li>Copy the Video URL: Begin by copying the URL of the YouTube video you wish to convert and download.</li>
+              <li>Paste and Download: Simply paste the copied URL into the designated input box on our platform. Click the 'Download' button to initiate the conversion process.</li>
+              <li>Instant Access: Watch as our cutting-edge technology swiftly processes the conversion. Once complete, your MP4 file will be ready for download.</li>
+            </ol>
+            <p>Features that Set Yt2Mp4 Apart:</p>
+            <ul>
+              <li>Effortless and Swift: Yt2Mp4 prides itself on its intuitive design, making the entire conversion process a breeze. Say goodbye to complex procedures!</li>
+              <li>No Registration Required: Unlike other platforms, we respect your privacy. Yt2Mp4 lets you convert and download without requiring any registration or installation.</li>
+              <li>Wide Format and Resolution Support: Whether it's a captivating 4K video or a standard format, Yt2Mp4 has you covered with support for various YouTube formats and resolutions.</li>
+              <li>No Annoying Watermarks or Ads: Your downloaded MP4 files will be free from any intrusive watermarks or advertisements.</li>
+            </ul>
+            <p>About Yt2Mp4: Our mission is simple – to provide you with a free, reliable, and user-centric service for downloading YouTube videos. Please remember to respect content owners' rights and usage guidelines.</p>
           </div>
         </div>
       </main>
