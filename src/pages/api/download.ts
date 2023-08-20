@@ -45,8 +45,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const videoMetaData = await ytdl.getBasicInfo(youtubeURL);
     res.setHeader('Content-Disposition', `attachment; filename="${videoMetaData.videoDetails.title}.mp4"`);
     res.setHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36');
-
+    const vidformat: any = 'mp4';
+    
     ytdl(youtubeURL, {
-        format: 'mp4' as const
+        format: vidformat
     }).pipe(res);
 }
