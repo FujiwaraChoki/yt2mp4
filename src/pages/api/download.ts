@@ -37,7 +37,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
         return res.status(200).json({ videoUrl: videoUrl });
     } catch (error) {
-        console.error('Error downloading video:', error.message);
-        return res.status(500).json({ error: 'Error downloading video: ' + error.message });
+        console.error('Error downloading video:', error?.message);
+        return res.status(500).json({ error: 'Error downloading video: ' + error });
     }
 }
