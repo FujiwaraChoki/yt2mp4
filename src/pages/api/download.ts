@@ -1,6 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import youtubedl from 'youtube-dl-exec';
-import fs from 'fs';
+//import youtubedl from 'youtube-dl-exec';
+import ytdl from 'ytdl-core';
+//import fs from 'fs';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method !== 'POST') {
@@ -13,6 +14,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         return res.status(400).json({ error: 'YouTube URL is required' });
     }
 
+    /*
     try {
         const output = await youtubedl(youtubeURL, {
             noWarnings: true,
@@ -39,5 +41,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } catch (error) {
         console.error('Error downloading video:', error);
         return res.status(500).json({ error: 'Error downloading video: ' + error });
-    }
+    }*/
+    const videoMetaData = await ytdl.getBasicInfo(youtubeURL);
+    res.setHeader('Content-Disposition', `attachment; filename="${videoMetaData.videoDetails.title}.mp4"`,
+    'User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36');
+    ytdl(URL, {
+        format: 'mp4'
+    }).pipe(res);
 }
