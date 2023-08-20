@@ -1,7 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-//import youtubedl from 'youtube-dl-exec';
 import ytdl from 'ytdl-core';
-//import fs from 'fs';
+
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+}
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method !== 'POST') {
