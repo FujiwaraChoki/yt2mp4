@@ -94,14 +94,14 @@ export default function Home() {
             <p>How to Download YouTube Videos with Yt2Mp4:</p>
             <ol>
               <li>Copy the Video URL: Begin by copying the URL of the YouTube video you wish to convert and download.</li>
-              <li>Paste and Download: Simply paste the copied URL into the designated input box on our platform. Click the 'Download' button to initiate the conversion process.</li>
+              <li>Paste and Download: Simply paste the copied URL into the designated input box on our platform. Click the &apos;Download&apos; button to initiate the conversion process.</li>
               <li>Instant Access: Watch as our cutting-edge technology swiftly processes the conversion. Once complete, your MP4 file will be ready for download.</li>
             </ol>
             <p>Features that Set Yt2Mp4 Apart:</p>
             <ul>
               <li>Effortless and Swift: Yt2Mp4 prides itself on its intuitive design, making the entire conversion process a breeze. Say goodbye to complex procedures!</li>
               <li>No Registration Required: Unlike other platforms, we respect your privacy. Yt2Mp4 lets you convert and download without requiring any registration or installation.</li>
-              <li>Wide Format and Resolution Support: Whether it's a captivating 4K video or a standard format, Yt2Mp4 has you covered with support for various YouTube formats and resolutions.</li>
+              <li>Wide Format and Resolution Support: Whether it&apos;s a captivating 4K video or a standard format, Yt2Mp4 has you covered with support for various YouTube formats and resolutions.</li>
               <li>No Annoying Watermarks or Ads: Your downloaded MP4 files will be free from any intrusive watermarks or advertisements.</li>
             </ul>
             <p>About Yt2Mp4: Our mission is simple – to provide you with a free, reliable, and user-centric service for downloading YouTube videos. Please remember to respect content owners' rights and usage guidelines.</p>
