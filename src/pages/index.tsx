@@ -104,7 +104,7 @@ export default function Home() {
               <li>Wide Format and Resolution Support: Whether it&apos;s a captivating 4K video or a standard format, Yt2Mp4 has you covered with support for various YouTube formats and resolutions.</li>
               <li>No Annoying Watermarks or Ads: Your downloaded MP4 files will be free from any intrusive watermarks or advertisements.</li>
             </ul>
-            <p>About Yt2Mp4: Our mission is simple – to provide you with a free, reliable, and user-centric service for downloading YouTube videos. Please remember to respect content owners' rights and usage guidelines.</p>
+            <p>About Yt2Mp4: Our mission is simple – to provide you with a free, reliable, and user-centric service for downloading YouTube videos. Please remember to respect content owner&apos;s rights and usage guidelines.</p>
           </div>
         </div>
       </main>
