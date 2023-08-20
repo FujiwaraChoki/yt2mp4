@@ -43,8 +43,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         return res.status(500).json({ error: 'Error downloading video: ' + error });
     }*/
     const videoMetaData = await ytdl.getBasicInfo(youtubeURL);
-    res.setHeader('Content-Disposition', `attachment; filename="${videoMetaData.videoDetails.title}.mp4"`,
-    'User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36');
+    res.setHeader('Content-Disposition', `attachment; filename="${videoMetaData.videoDetails.title}.mp4"`);
+    res.setHeader('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36');
+
     ytdl(URL, {
         format: 'mp4'
     }).pipe(res);
